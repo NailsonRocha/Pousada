@@ -1,0 +1,303 @@
+/*TOPO*/
+body 
+{
+    font-family: source sans pro;
+    margin: 0px;
+    font-size:  18px;
+}
+
+.divtopo1
+{
+    opacity: 1;
+    display: flex;
+    position: fixed;
+    width: 100%;
+    height: 80px;
+    background-color: white;
+    padding: 30px;
+    box-sizing: border-box;
+    justify-content: space-around;
+    z-index: 1;
+}
+
+.divtopo2 a
+{
+    text-decoration: none;
+    color: black;
+
+}
+
+.divtopo2 span
+{
+    color: blue;
+}
+
+.divtopo3 a
+{
+    text-decoration: none;
+    margin-left: 30px;
+    color: black;
+}
+
+/*APRESENTAÇÃO*/
+
+.visual1
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("img/assets/img-fundo.jpg");
+    width: 100%;
+    height: 700px;
+}
+
+.visual2
+{
+    position: absolute;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    background: #51b088;
+    width: 40%;
+    height:  200px;
+    text-align: center;
+    border: 3px solid white ;
+    color: white;
+}
+
+div > .visual2
+{
+    opacity: 0.7;
+}
+
+/*DESCRIÇÃO*/
+
+.bemvindo
+{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+/*VENDAS*/
+
+.divquartos
+{
+    margin-top: 30px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+
+}
+
+.ft
+{
+    width: 290px;
+    height: 180px;
+}
+
+.img
+{
+    border-bottom: 3px solid #3d8466;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.img a
+{
+    color: black;
+    padding: 20px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.link1 
+{
+    text-decoration: none;
+    line-height: 25px;
+}
+
+/*ROTA*/
+
+.rota 
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+/*IFRAME*/
+
+iframe
+{
+    margin-top: 30px;
+    box-sizing: border-box;
+}
+
+/*SOBRE*/
+
+.sobre
+
+{
+    text-align: center;
+}
+
+/*QUARTOS*/
+
+.quartos
+{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+}
+
+
+.texto
+{
+    max-width: 600px;
+    max-height: 270px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.h1p
+{
+    width: 360px;
+    height: 180px;
+    display: flex;
+    flex-flow: column;
+    box-sizing: border-box;
+}
+
+.picture
+{
+    margin-left: 20px;
+    box-sizing: border-box;
+}
+.texto img
+{
+    width: 145px;
+    height: 90px;
+}
+
+/*RODAPÉ*/
+
+.rodape
+{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #51b088;
+    margin-top: 30px;
+}
+
+.rdp
+{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    border-bottom: 3px solid #3d8466;
+    width: auto;
+}
+
+.rod
+{
+    width: 200px;
+    height: auto;
+    display: flex;
+    flex-flow: row wrap;
+    box-sizing: border-box;
+    margin: 15px;
+    color: white;
+}
+
+.rod1
+{
+    width: 250px;
+}
+
+.rod2
+{
+    display: flex;
+    justify-content: flex-start;
+    width: 380px;
+    box-sizing: border-box
+}
+
+.rod2 a
+{
+    margin-top: 14px;
+    margin-left: 10px;
+}
+
+.rod2 img
+{
+    margin: 4px;
+}
+
+.rod3 
+{
+    width: 210px;
+}
+.rod img
+{
+    display: flex;
+    flex-wrap: nowrap;
+    width: 40px;
+    height: 40px;
+    margin-top: 4px;
+    
+}
+
+.rod p
+{
+    margin-left: 10px;
+}
+
+.rod a
+{
+    color: white;
+    text-decoration: none;
+}
+
+.rod4
+{
+    display: flex;
+    justify-content: flex-end;
+    width: 350px;
+    box-sizing: border-box
+}
+
+.rod4 a
+{
+    margin-left: 10px;
+    margin-top: 14px;
+}
+
+.rod4 img
+{
+    margin: 4px;
+}
+
+.copy
+{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #51b088;
+    width: 100%;
+    height: 60px;
+    box-sizing: border-box;
+    
+}
+

@@ -1,0 +1,234 @@
+/*TOPO*/
+
+body 
+{
+    font-family: source sans pro;
+    margin: 0px;
+    font-size:  18px;
+}
+
+.divtopo1
+{
+    opacity: 1;
+    display: flex;
+    position: fixed;
+    width: 100%;
+    height: 80px;
+    background-color: white;
+    padding: 30px;
+    box-sizing: border-box;
+    justify-content: space-around;
+    z-index: 1;
+}
+
+.divtopo2 a
+{
+    text-decoration: none;
+    color: black;
+
+}
+
+.divtopo2 span
+{
+    color: blue;
+}
+
+.divtopo3 a
+{
+    text-decoration: none;
+    margin-left: 30px;
+    color: black;
+}
+
+/*IMAGEM DE FUNDO*/
+
+.imagemdefundo
+{
+    position: relative;
+    background-image: url("img/assets/img-fundo.jpg");
+    width: 100%;
+    height: 300px;
+    box-sizing: border-box;
+
+}
+
+/*ESTILO PARA "H1" E "P" DE TODOS OS QUARTOS */
+
+.solteiro, .casal, .familia
+{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin-top: 40px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/*ALINHAMENTO DE TODAS AS IMG's DOS QUARTOS*/
+
+.quartos-solteiros, .quarto-casal, .quarto-familia
+{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+/*ESPAÇAMENTO INTERNO DE TODAS AS DIV's IMG */
+
+.boxsolteiro, .boxcasal, .boxfamilia
+{
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+/*LISTA DE INFORMAÇÕES DOS QUARTOS */
+
+.info-solteiro, .info-casal, .info-familia
+{
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    height: auto;
+}
+
+.info-solteiro h1, .info-casal h1, .info-familia h1
+{
+    width: 100%;
+    text-align: center;
+}
+
+.info-solteiro ul, .info-casal ul, .info-familia ul 
+{
+    text-align: center;
+    width: 100%;
+    height: auto;
+}
+
+.info-solteiro li, .info-casal li, .info-familia li
+{
+    display: inline;
+    width: 200px;
+    margin: 20px;
+    box-sizing: border-box;
+}
+
+/*SIZE DE TODOS OS QUARTOS DA PÁGINA*/
+
+.quartos-design1, .quartos-design2, .quartos-design3
+{
+    width: 290px;
+    height: 180px;
+}
+
+
+.rodape
+{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #51b088;
+    margin-top: 30px;
+}
+
+.rdp
+{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    border-bottom: 3px solid #3d8466;
+    width: auto;
+}
+
+.rod
+{
+    width: 200px;
+    height: auto;
+    display: flex;
+    flex-flow: row wrap;
+    box-sizing: border-box;
+    margin: 15px;
+    color: white;
+}
+
+.rod1
+{
+    width: 250px;
+}
+
+.rod2
+{
+    display: flex;
+    justify-content: flex-start;
+    width: 380px;
+    box-sizing: border-box
+}
+
+.rod2 a
+{
+    margin-top: 14px;
+    margin-left: 10px;
+}
+
+.rod2 img
+{
+    margin: 4px;
+}
+
+.rod3 
+{
+    width: 210px;
+}
+.rod img
+{
+    display: flex;
+    flex-wrap: nowrap;
+    width: 40px;
+    height: 40px;
+    margin-top: 4px;
+    
+}
+
+.rod p
+{
+    margin-left: 10px;
+}
+
+.rod a
+{
+    color: white;
+    text-decoration: none;
+}
+
+.rod4
+{
+    display: flex;
+    justify-content: flex-end;
+    width: 350px;
+    box-sizing: border-box
+}
+
+.rod4 a
+{
+    margin-left: 10px;
+    margin-top: 14px;
+}
+
+.rod4 img
+{
+    margin: 4px;
+}
+
+.copy
+{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #51b088;
+    width: 100%;
+    height: 60px;
+    box-sizing: border-box;
+    
+}
+
